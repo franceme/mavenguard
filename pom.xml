@@ -4,11 +4,19 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>vt.edu</groupId>
     <artifactId>mavenguard-maven-plugin</artifactId>
-    <version>V00.00.00</version>
+    <version>V00.00.01</version>
 
     <packaging>maven-plugin</packaging>
 
     <name>MavenGuard</name>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub OWNER Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/franceme/mavenguard</url>
+        </repository>
+    </distributionManagement>
 
     <dependencies>
         <dependency>
