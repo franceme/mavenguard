@@ -18,3 +18,4 @@ docs
 /.classpath
 /.vscode/
 /scratchSpace
+/dependency-reduced-pom.xml
